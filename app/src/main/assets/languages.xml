@@ -1,0 +1,690 @@
+<root>
+
+    <language>
+        <name>Polish</name>
+
+        <transliterationRules>
+            <rule>a@A</rule>
+            <rule>ą@O_nasal</rule>
+            <rule>b@B</rule>
+            <rule>c@C</rule>
+            <rule>d@D</rule>
+            <rule>e@E</rule>
+            <rule>ę@E_nasal</rule>
+            <rule>f@F</rule>
+            <rule>g@G</rule>
+            <rule>h@H</rule>
+            <rule>i@I</rule>
+            <rule>'@Softened</rule>
+            <rule>j@J</rule>
+            <rule>k@K</rule>
+            <rule>l@L</rule>
+            <rule>ł@W</rule>
+            <rule>m@M</rule>
+            <rule>n@N</rule>
+            <rule>ń@N Softened</rule>
+            <rule>o@O</rule>
+            <rule>p@P</rule>
+            <rule>r@R</rule>
+            <rule>s@S</rule>
+            <rule>t@T</rule>
+            <rule>u@U</rule>
+            <rule>w@V</rule>
+            <rule>x@K S</rule>
+            <rule>y@Y</rule>
+            <rule>z@Z</rule>
+            <rule>ż@Zh</rule>
+            <rule>ź@Z Softened</rule>
+            <rule>cz@Ch</rule>
+            <rule>ć@Ch Softened</rule>
+            <rule>sz@Sh</rule>
+            <rule>ś@Sch</rule>
+            <rule>dz@DZ</rule>
+            <rule>dż@DZh</rule>
+
+            <!-- Rules to cover other phonemes -->
+            <rule>a@A_rounded</rule>
+            <rule>o@O_rounded</rule>
+            <rule>u@U_rounded</rule>
+
+            <rule>#@Error</rule>
+            <rule>#@Hardened</rule>
+
+        </transliterationRules>
+
+        <simplificationRules>
+
+            <rule>ch@h</rule>
+            <rule>krz@ksz</rule>
+            <rule>prz@psz</rule>
+            <rule>trz@tsz</rule>
+            <rule>rz@ż</rule>
+            <rule>ó@u</rule>
+            <rule>si@ś</rule>
+            <rule>ci@czi</rule>
+
+        </simplificationRules>
+
+        <complificationRules>
+
+            <rule>czi@ci</rule>
+            <rule>c')@ć)</rule>
+            <rule>s')@ś)</rule>
+            <rule>zi@ź</rule>
+            <rule>n'@ń</rule>
+            <rule>'a@ia</rule>
+            <rule>'o@io</rule>
+            <rule>'u@iu</rule>
+            <rule>'e@ie</rule>
+            <rule>cz'@ć</rule>
+            <rule>ii@i</rule>
+            <rule>'j@j</rule>
+            <rule>czi@ci</rule>
+
+        </complificationRules>
+
+    </language>
+
+
+
+    <language>
+        <name>Russian</name>
+
+        <transliterationRules>
+
+            <rule>а@A</rule>
+            <rule>б@B</rule>
+            <rule>в@V</rule>
+            <rule>г@G</rule>
+            <rule>д@D</rule>
+            <rule>е@Softened E</rule>
+            <rule>ё@Softened O</rule>
+            <rule>ж@Zh</rule>
+            <rule>з@Z</rule>
+            <rule>и@I</rule>
+            <rule>й@J</rule>
+            <rule>к@K</rule>
+            <rule>л@L</rule>
+            <rule>м@M</rule>
+            <rule>н@N</rule>
+            <rule>о@O</rule>
+            <rule>п@P</rule>
+            <rule>р@R</rule>
+            <rule>с@S</rule>
+            <rule>т@T</rule>
+            <rule>у@U</rule>
+            <rule>ф@F</rule>
+            <rule>х@H</rule>
+            <rule>ц@C</rule>
+            <rule>ч@Ch</rule>
+            <rule>ш@Sh</rule>
+            <rule>щ@Sch</rule>
+            <rule>ъ@Hardened</rule>
+            <rule>ы@Y</rule>
+            <rule>ь@Softened</rule>
+            <rule>э@E</rule>
+            <rule>ю@Softened U</rule>
+            <rule>я@Softened A</rule>
+            <!-- Rules to cover phonemes for reverse transliteration to Russian -->
+            <rule>л@W</rule>
+            <rule>о@O_nasal</rule>
+            <rule>э@E_nasal</rule>
+            <rule>дз@DZ</rule>
+            <rule>дж@DZh</rule>
+            <rule>я@A_rounded</rule>
+            <rule>ё@O_rounded</rule>
+            <rule>ю@U_rounded</rule>
+
+            <rule>#@Error</rule>
+
+        </transliterationRules>
+
+        <simplificationRules>
+
+            <rule>ши@шы</rule>
+            <rule>ци@цы</rule>
+            <rule>жи@жы</rule>
+            <rule>же@жэ</rule>
+            <rule>це@цэ</rule>
+            <rule>ше@шэ</rule>
+            <rule>жё@жо</rule>
+            <rule>шё@шо</rule>
+
+            <rule>(я@(йа</rule>
+            <rule>(е@(йэ</rule>
+            <rule>(ё@(йо</rule>
+            <rule>(ю@(йу</rule>
+
+            <rule>ая@айа</rule>
+            <rule>оя@ойа</rule>
+            <rule>уя@уйа</rule>
+            <rule>ия@ийа</rule>
+            <rule>ыя@ыйа</rule>
+            <rule>ию@ийу</rule>
+            <rule>ыю@ыйу</rule>
+            <rule>ое@ойэ</rule>
+            <rule>уе@уйэ</rule>
+            <rule>ие@ийэ</rule>
+            <rule>эе@эйэ</rule>
+            <rule>ые@ыйэ</rule>
+            <rule>оё@ойо</rule>
+            <rule>уё@уйо</rule>
+            <rule>иё@ийо</rule>
+            <rule>эё@эйо</rule>
+
+            <rule>ъя@йа</rule>
+            <rule>ъю@йу</rule>
+            <rule>ъе@йэ</rule>
+            <rule>ъё@йо</rule>
+
+            <rule>ьо@ьйо</rule>
+            <rule>ья@ьйа</rule>
+            <rule>ью@ьйу</rule>
+            <rule>ьё@ьйо</rule>
+            <rule>ье@ьйэ</rule>
+
+        </simplificationRules>
+
+        <complificationRules>
+
+            <rule>ьэ@е</rule>
+            <rule>ьу@ю</rule>
+            <rule>ьа@я</rule>
+            <rule>ьо@ё</rule>
+            <rule>иэ@е</rule>
+            <rule>(йа@(я</rule>
+            <rule>(йэ@(е</rule>
+            <rule>(йо@(ё</rule>
+            <rule>(йу@(ю</rule>
+
+            <rule>'@ь</rule>
+
+        </complificationRules>
+
+    </language>
+
+
+    <language>
+        <name>English α</name>
+
+        <transliterationRules>
+            <rule>a@A</rule>
+            <rule>b@B</rule>
+            <rule>c@C</rule>
+            <rule>d@D</rule>
+            <rule>e@E</rule>
+            <rule>f@F</rule>
+            <rule>g@G</rule>
+            <rule>h@H</rule>
+            <rule>i@I</rule>
+            <rule>j@DZh</rule>
+            <rule>k@K</rule>
+            <rule>l@L</rule>
+            <rule>m@M</rule>
+            <rule>n@N</rule>
+            <rule>o@O</rule>
+            <rule>p@P</rule>
+            <rule>q@K</rule>
+            <rule>r@R</rule>
+            <rule>s@S</rule>
+            <rule>t@T</rule>
+            <rule>u@U</rule>
+            <rule>v@V</rule>
+            <rule>w@W</rule>
+            <rule>x@K S</rule>
+            <rule>z@Z</rule>
+        <!-- to cover all the phonemes -->
+            <rule>ts@C</rule>
+            <rule>y@J</rule>
+            <rule>y@Y</rule>
+            <rule>ch@Ch</rule>
+            <rule>zh@Zh</rule>
+            <rule>dz@DZ</rule>
+            <rule>sh@Sh</rule>
+            <rule>sch@Sch</rule>
+
+
+            <rule>#@Error</rule>
+            <rule>'@Softened</rule>
+            <rule>'@Hardened</rule>
+
+        </transliterationRules>
+
+        <simplificationRules>
+
+            <rule>ca@ka</rule>
+            <rule>co@ko</rule>
+            <rule>cu@ka</rule>
+            <rule>ce@se</rule>
+            <rule>ci@si</rule>
+            <rule>cc@ks</rule>
+
+            <rule>qu@kv</rule>
+
+            <rule>oo@u</rule>
+
+            <rule>ge@je</rule>
+
+            <rule>y)@i)</rule>
+            <rule>s)@z)</rule>
+
+        </simplificationRules>
+
+        <complificationRules>
+
+            <rule>q@k</rule>
+
+        </complificationRules>
+
+
+    </language>
+
+    <language>
+        <name>Hungarian β</name>
+
+        <transliterationRules>
+            <rule>a@A</rule>
+            <rule>á@A A</rule>
+            <rule>b@B</rule>
+            <rule>c@C</rule>
+            <rule>cs@Ch</rule>
+            <rule>d@D</rule>
+            <rule>dz@DZ</rule>
+            <rule>dzs@DZh</rule>
+            <rule>e@E</rule>
+            <rule>é@E E</rule>
+            <rule>f@F</rule>
+            <rule>g@G</rule>
+            <rule>gy@D Softened</rule>
+            <rule>h@H</rule>
+            <rule>i@I</rule>
+            <rule>í@I I</rule>
+            <rule>j@J</rule>
+            <rule>k@K</rule>
+            <rule>l@L</rule>
+            <rule>ly@L Softened</rule>
+            <rule>m@M</rule>
+            <rule>n@N</rule>
+            <rule>ny@N Softened</rule>
+            <rule>o@O</rule>
+            <rule>ó@O O</rule>
+            <rule>ö@O_rounded</rule>
+            <rule>p@P</rule>
+            <rule>r@R</rule>
+            <rule>s@Sh</rule>
+            <rule>t@T</rule>
+            <rule>ty@T Softened</rule>
+            <rule>u@U</rule>
+            <rule>ú@U U</rule>
+            <rule>ü@U_rounded</rule>
+            <rule>v@V</rule>
+            <rule>z@Z</rule>
+            <rule>zs@Zh</rule>
+            <rule>q@K</rule>
+            <rule>w@V</rule>
+            <rule>x@K S</rule>
+
+            <!-- Rules to cover the remaining part of phonemes -->
+            <rule>w@W</rule>
+            <rule>scs@Sch</rule>
+            <rule>y@Softened</rule>
+            <rule>#@Hardened</rule>
+            <rule>#@Error</rule>
+            <rule>e@E_nasal</rule>
+            <rule>o@O_nasal</rule>
+
+        </transliterationRules>
+
+        <simplificationRules>
+
+            <rule>ő@öo</rule>
+            <rule>ű@üu</rule>
+
+        </simplificationRules>
+
+        <complificationRules>
+
+
+
+        </complificationRules>
+
+
+    </language>
+
+
+    <language>
+        <name>Katakana β</name>
+
+        <transliterationRules>
+
+            <rule>a@A</rule>
+            <rule>o@O</rule>
+            <rule>u@U</rule>
+            <rule>e@E</rule>
+            <rule>i@I</rule>
+            <rule>y@Softened</rule>
+
+            <rule>k@K</rule>
+            <rule>g@G</rule>
+            <rule>s@S</rule>
+            <rule>z@Z</rule>
+            <rule>t@T</rule>
+            <rule>d@D</rule>
+            <rule>n@N</rule>
+            <rule>h@H</rule>
+            <rule>b@B</rule>
+            <rule>p@P</rule>
+            <rule>m@M</rule>
+            <rule>r@R</rule>
+            <rule>w@V</rule>
+
+            <!-- Coverage of absence -->
+
+            <rule>y@J</rule>
+            <rule>w@W</rule>
+            <rule>r@L</rule>
+            <rule>ts@C</rule>
+            <rule>ch@Ch</rule>
+            <rule>s@Sh</rule>
+            <rule>s@Sch</rule>
+            <rule>dz@DZ</rule>
+            <rule>z@Zh</rule>
+            <rule>o@O_nasal</rule>
+            <rule>e@E_nasal</rule>
+            <rule>ya@A_rounded</rule>
+            <rule>yo@O_rounded</rule>
+            <rule>yu@U_rounded</rule>
+            <rule>i@Y</rule>
+
+            <rule>@Hardened</rule>
+            <rule>@Softened</rule>
+            <rule>#@Error</rule>
+
+        </transliterationRules>
+
+        <simplificationRules>
+
+            <rule>カ@ka</rule>
+            <rule>キ@ki</rule>
+            <rule>ク@ku</rule>
+            <rule>ケ@ke</rule>
+            <rule>コ@ko</rule>
+            <rule>キャ@kya</rule>
+            <rule>キュ@kyu</rule>
+            <rule>キョ@kyo</rule>
+
+            <rule>ガ@ga</rule>
+            <rule>ギ@gi</rule>
+            <rule>グ@gu</rule>
+            <rule>ゲ@ge</rule>
+            <rule>ゴ@go</rule>
+            <rule>ギャ@gya</rule>
+            <rule>ギュ@gyu</rule>
+            <rule>ギョ@gyo</rule>
+
+            <rule>サ@sa</rule>
+            <rule>シ@si</rule>
+            <rule>ス@su</rule>
+            <rule>セ@se</rule>
+            <rule>ソ@so</rule>
+            <rule>シャ@sya</rule>
+            <rule>シュ@syu</rule>
+            <rule>ショ@syo</rule>
+
+            <rule>ザ@za</rule>
+            <rule>ジ@zi</rule>
+            <rule>ズ@zu</rule>
+            <rule>ゼ@ze</rule>
+            <rule>ゾ@zo</rule>
+            <rule>ジャ@zya</rule>
+            <rule>ジュ@zyu</rule>
+            <rule>ジョ@zyo</rule>
+
+            <rule>タ@ta</rule>
+            <rule>チ@chi</rule>
+            <rule>チ@ti</rule>
+            <rule>ツ@tu</rule>
+            <rule>ツ@tsu</rule>
+            <rule>テ@te</rule>
+            <rule>ト@to</rule>
+            <rule>チャ@cha</rule>
+            <rule>チャ@tya</rule>
+            <rule>チュ@chu</rule>
+            <rule>チュ@tyu</rule>
+            <rule>チョ@cho</rule>
+            <rule>チョ@tyo</rule>
+
+            <rule>ダ@da</rule>
+            <rule>ヂ@dzi</rule>
+            <rule>ヅ@dzu</rule>
+            <rule>デ@de</rule>
+            <rule>ド@do</rule>
+
+            <rule>ナ@na</rule>
+            <rule>ニ@ni</rule>
+            <rule>ヌ@nu</rule>
+            <rule>ネ@ne</rule>
+            <rule>ノ@no</rule>
+            <rule>ニャ@nya</rule>
+            <rule>ニュ@nyu</rule>
+            <rule>ニョ@nyo</rule>
+
+            <rule>ハ@ha</rule>
+            <rule>ヒ@hi</rule>
+            <rule>フ@fu</rule>
+            <rule>ヘ@he</rule>
+            <rule>ホ@ho</rule>
+            <rule>ヒャ@hya</rule>
+            <rule>ヒュ@hyu</rule>
+            <rule>ヒョ@hyo</rule>
+
+            <rule>バ@ba</rule>
+            <rule>ビ@bi</rule>
+            <rule>ブ@bu</rule>
+            <rule>ベ@be</rule>
+            <rule>ボ@bo</rule>
+            <rule>ビャ@bya</rule>
+            <rule>ビュ@byu</rule>
+            <rule>ビョ@byo</rule>
+
+            <rule>パ@pa</rule>
+            <rule>ピ@pi</rule>
+            <rule>プ@pu</rule>
+            <rule>ペ@pe</rule>
+            <rule>ポ@po</rule>
+            <rule>ピャ@pya</rule>
+            <rule>ピュ@pyu</rule>
+            <rule>ピョ@pyo</rule>
+
+            <rule>マ@ma</rule>
+            <rule>ミ@mi</rule>
+            <rule>ム@mu</rule>
+            <rule>メ@me</rule>
+            <rule>モ@mo</rule>
+            <rule>ミャ@mya</rule>
+            <rule>ミュ@myu</rule>
+            <rule>ミョ@myo</rule>
+
+            <rule>ラ@ra</rule>
+            <rule>リ@ri</rule>
+            <rule>ル@ru</rule>
+            <rule>レ@re</rule>
+            <rule>ロ@ro</rule>
+            <rule>リャ@rya</rule>
+            <rule>リュ@ryu</rule>
+            <rule>リョ@ryo</rule>
+
+            <rule>ワ@wa</rule>
+            <rule>ヰ@wi</rule>
+            <rule>于@wu</rule>
+            <rule>ヱ@we</rule>
+            <rule>ヰャ@wya</rule>
+            <rule>ヰュ@wyu</rule>
+            <rule>ヰョ@wyo</rule>
+
+            <rule>ア@a</rule>
+            <rule>イ@i</rule>
+            <rule>ウ@u</rule>
+            <rule>エ@e</rule>
+            <rule>オ@o</rule>
+            <rule>ヤ@ya</rule>
+            <rule>ユ@yu</rule>
+            <rule>ヨ@yo</rule>
+
+            <rule>ン@n</rule>
+
+        </simplificationRules>
+
+        <complificationRules>
+
+            <rule>ka@カ</rule>
+            <rule>ki@キ</rule>
+            <rule>ku@ク</rule>
+            <rule>ke@ケ</rule>
+            <rule>ko@コ</rule>
+            <rule>kya@キャ</rule>
+            <rule>kyu@キュ</rule>
+            <rule>kuo@キョ</rule>
+
+            <rule>ga@ガ</rule>
+            <rule>gi@ギ</rule>
+            <rule>gu@グ</rule>
+            <rule>ge@ゲ</rule>
+            <rule>go@ゴ</rule>
+            <rule>gya@ギャ</rule>
+            <rule>gyu@ギュ</rule>
+            <rule>gyo@ギョ</rule>
+
+            <rule>sa@サ</rule>
+            <rule>si@シ</rule>
+            <rule>su@ス</rule>
+            <rule>se@セ</rule>
+            <rule>so@ソ</rule>
+            <rule>sya@シャ</rule>
+            <rule>syu@シュ</rule>
+            <rule>syo@ショ</rule>
+
+            <rule>dza@ザ</rule>
+            <rule>za@ザ</rule>
+            <rule>dzi@ジ</rule>
+            <rule>zi@ジ</rule>
+            <rule>dzu@ズ</rule>
+            <rule>zu@ズ</rule>
+            <rule>dze@ゼ</rule>
+            <rule>ze@ゼ</rule>
+            <rule>dzo@ゾ</rule>
+            <rule>zo@ゾ</rule>
+            <rule>dzya@ジャ</rule>
+            <rule>zya@ジャ</rule>
+            <rule>dzyu@ジュ</rule>
+            <rule>zyu@ジュ</rule>
+            <rule>dzye@ジョ</rule>
+            <rule>zye@ジョ</rule>
+
+            <rule>ta@タ</rule>
+            <rule>tsa@タ</rule>
+            <rule>ti@チ</rule>
+            <rule>chi@チ</rule>
+            <rule>tsi@チ</rule>
+            <rule>tu@ツ</rule>
+            <rule>tsu@ツ</rule>
+            <rule>te@テ</rule>
+            <rule>tse@テ</rule>
+            <rule>to@ト</rule>
+            <rule>tso@ト</rule>
+            <rule>cha@チャ</rule>
+            <rule>tya@チャ</rule>
+            <rule>chu@チュ</rule>
+            <rule>tyu@チュ</rule>
+            <rule>cho@チョ</rule>
+            <rule>tyo@チョ</rule>
+
+            <rule>da@ダ</rule>
+            <rule>di@ヂ</rule>
+            <rule>dzi@ヂ</rule>
+            <rule>du@ヅ</rule>
+            <rule>de@デ</rule>
+            <rule>do@ド</rule>
+
+            <rule>na@ナ</rule>
+            <rule>ni@ニ</rule>
+            <rule>nu@ヌ</rule>
+            <rule>ne@ネ</rule>
+            <rule>no@ノ</rule>
+            <rule>nya@ニャ</rule>
+            <rule>nyu@ニュ</rule>
+            <rule>nyo@ニョ</rule>
+
+            <rule>ha@ハ</rule>
+            <rule>hi@ヒ</rule>
+            <rule>hu@フ</rule>
+            <rule>fu@フ</rule>
+            <rule>he@ヘ</rule>
+            <rule>ho@ホ</rule>
+            <rule>hya@ヒャ</rule>
+            <rule>hyu@ヒュ</rule>
+            <rule>hyo@ヒョ</rule>
+
+            <rule>ba@バ</rule>
+            <rule>bi@ビ</rule>
+            <rule>bu@ブ</rule>
+            <rule>be@ベ</rule>
+            <rule>bo@ボ</rule>
+            <rule>bya@ビャ</rule>
+            <rule>byu@ビュ</rule>
+            <rule>byo@ビョ</rule>
+
+            <rule>pa@パ</rule>
+            <rule>pi@ピ</rule>
+            <rule>pu@プ</rule>
+            <rule>pe@ペ</rule>
+            <rule>po@ポ</rule>
+            <rule>pya@ピャ</rule>
+            <rule>pyu@ピュ</rule>
+            <rule>pyo@ピョ</rule>
+
+            <rule>ma@マ</rule>
+            <rule>mi@ミ</rule>
+            <rule>mu@ム</rule>
+            <rule>me@メ</rule>
+            <rule>mo@モ</rule>
+            <rule>mya@ミャ</rule>
+            <rule>myu@ミュ</rule>
+            <rule>myo@ミョ</rule>
+
+            <rule>ra@ラ</rule>
+            <rule>ri@リ</rule>
+            <rule>ru@ル</rule>
+            <rule>re@レ</rule>
+            <rule>ro@ロ</rule>
+            <rule>rya@リャ</rule>
+            <rule>ryu@リュ</rule>
+            <rule>ryo@リョ</rule>
+
+            <rule>wa@ワ</rule>
+            <rule>wi@ヰ</rule>
+            <rule>wu@于</rule>
+            <rule>we@ヱ</rule>
+            <rule>wya@ヰャ</rule>
+            <rule>wyu@ヰュ</rule>
+            <rule>wyo@ヰョ</rule>
+
+            <rule>a@ア</rule>
+            <rule>i@イ</rule>
+            <rule>y@sイ</rule>
+            <rule>u@ウ</rule>
+            <rule>e@エ</rule>
+            <rule>o@オ</rule>
+            <rule>ya@ヤ</rule>
+            <rule>yu@ユ</rule>
+            <rule>yo@ヨ</rule>
+            <rule>f@フ</rule>
+
+            <rule>n@ン</rule>
+
+        </complificationRules>
+
+    </language>
+
+
+</root>

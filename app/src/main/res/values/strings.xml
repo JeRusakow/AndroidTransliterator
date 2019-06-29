@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Transliterator</string>
+    <string name="action_button_name">Transliterate</string>
+    <string name="text_in">Text in</string>
+    <string name="origin_lang">Origin</string>
+    <string name="destination_lang">Destination</string>
+    <string name="label_from"> From:</string>
+    <string name="label_to">To:</string>
+</resources>
